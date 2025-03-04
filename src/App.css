@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Anek Latin', sans-serif;
+  background-color: #ffffff;
+  color: #021111;
+  overflow-x: hidden;
+}
+
+.noto-serif-<uniquifier> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.anek-latin-<uniquifier> {
+  font-family: "Anek Latin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Titles */
+h1, h2, h3 {
+  font-family: 'Noto Serif', serif !important;
+  color: #3a4e09;
+}
+
+/* DASHBOARD LAYOUT */
+.dashboard {
+  font-family: 'Anek Latin', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* HEADER */
+.dashboard-header {
+  background-color: #3a4e09;
+  color: #ffffff;
+  text-align: center;
+  font-size: 3rem; /* Larger font for better visibility */
+  padding: 25px;
+  font-weight: 700;
+}
+
+/* NAVIGATION BAR */
+.dashboard-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 0;
+  border-bottom: 3px solid #eae4cc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* TABS */
+.dashboard-nav button {
+  background: transparent;
+  color: #3a4e09;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.8rem; /* Bigger for touchscreen ease */
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 4px solid transparent;
+}
+
+.dashboard-nav button:hover {
+  color: #021111;
+}
+
+.dashboard-nav button.active {
+  color: #021111;
+  border-bottom: 4px solid #3a4e09;
+}
+
+/* CONTENT WRAPPER */
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+  flex-grow: 1;
+  /* overflow-y: auto; */
+}
+
+/* CALENDAR CONTAINER */
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #ffffff;
+}
+
+.event-info-section {
+  width:400px;
+}
+
+/* CALENDAR STYLING */
+.react-calendar {
+  border: none;
+  width: 100%;
+  max-width: 900px;
+  font-family: 'Noto Serif', serif;
+  background: #ffffff;
+  /* padding: 20px; */
+  border-radius: 12px;
+}
+
+.react-calendar__tile {
+  padding: 15px;
+  font-size: 1.4rem; /* Larger font */
+  font-weight: bold;
+  color: #021111;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.react-calendar__tile--now {
+  background: #eae4cc;
+  color: #021111;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.react-calendar__tile--active {
+  background: #3a4e09;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.react-calendar__navigation {
+  height: 7rem;
+}
+
+span.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+  /* color: blue; */
+  font-family: "Noto Serif", serif;
+}
+
+/* CALENDAR NAVIGATION */
+.react-calendar__navigation button {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+/* EVENT STYLING */
+.event-indicator {
+  background: #eae4cc;
+  color: #021111;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+/* WIDGETS SECTION */
+.widgets-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* WIDGET BOXES */
+.weather-widget, .tasks-widget {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  flex: 1;
+  min-width: 350px;
+}
+
+/* WEATHER ICONS */
+.forecast-day img {
+  width: 60px;
+}
+
+/* TASKS LIST */
+.tasks-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background: #f9f9f9;
+}
+
+.task-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* SCROLLBAR */
+.dashboard-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dashboard-content::-webkit-scrollbar-thumb {
+  background: #3a4e09;
+  border-radius: 12px;
+}
+
+.dashboard-content::-webkit-scrollbar-thumb:hover {
+  background: #eae4cc;
+}
+
+/* TOUCHSCREEN-FRIENDLY STYLING */
+@media (max-width: 1200px) {
+  .react-calendar {
+    max-width: 800px;
+  }
+
+  .dashboard-nav button {
+    font-size: 1.6rem;
+    padding: 12px 20px;
+  }
+
+  .react-calendar__tile {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-nav {
+    flex-wrap: wrap;
+  }
+
+  .widgets-section {
+    flex-direction: column;
+  }
+
+  .weather-widget,
+  .tasks-widget {
+    grid-column: 1 / 2;
+  }
+}
