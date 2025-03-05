@@ -1,7 +1,7 @@
 {
-  "homepage": "https://alyssams.github.io/cocina-dashboard",
   "name": "frontend",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "homepage": "https://alyssams.github.io/cocina-dashboard/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^3.3.3",
