@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cocina-dashboard/static/css/main.0acd0656.chunk.css",
+    "main.js": "/cocina-dashboard/static/js/main.6bb0253f.chunk.js",
+    "main.js.map": "/cocina-dashboard/static/js/main.6bb0253f.chunk.js.map",
+    "runtime-main.js": "/cocina-dashboard/static/js/runtime-main.7dbd93af.js",
+    "runtime-main.js.map": "/cocina-dashboard/static/js/runtime-main.7dbd93af.js.map",
+    "static/css/2.05cbb0d5.chunk.css": "/cocina-dashboard/static/css/2.05cbb0d5.chunk.css",
+    "static/js/2.f9823929.chunk.js": "/cocina-dashboard/static/js/2.f9823929.chunk.js",
+    "static/js/2.f9823929.chunk.js.map": "/cocina-dashboard/static/js/2.f9823929.chunk.js.map",
+    "static/js/3.4abda6f6.chunk.js": "/cocina-dashboard/static/js/3.4abda6f6.chunk.js",
+    "static/js/3.4abda6f6.chunk.js.map": "/cocina-dashboard/static/js/3.4abda6f6.chunk.js.map",
+    "index.html": "/cocina-dashboard/index.html",
+    "precache-manifest.78b76c4cd4212e5ff0d1a4533431de02.js": "/cocina-dashboard/precache-manifest.78b76c4cd4212e5ff0d1a4533431de02.js",
+    "service-worker.js": "/cocina-dashboard/service-worker.js",
+    "static/css/2.05cbb0d5.chunk.css.map": "/cocina-dashboard/static/css/2.05cbb0d5.chunk.css.map",
+    "static/css/main.0acd0656.chunk.css.map": "/cocina-dashboard/static/css/main.0acd0656.chunk.css.map",
+    "static/js/2.f9823929.chunk.js.LICENSE.txt": "/cocina-dashboard/static/js/2.f9823929.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dbd93af.js",
+    "static/css/2.05cbb0d5.chunk.css",
+    "static/js/2.f9823929.chunk.js",
+    "static/css/main.0acd0656.chunk.css",
+    "static/js/main.6bb0253f.chunk.js"
+  ]
+}
