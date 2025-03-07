@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7db4fecc8d9e878547437a1658b31d8d",
+    "revision": "a2e631a2b8f4b8855832b34c54a2b0c8",
     "url": "/cocina-dashboard/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cocina-dashboard/static/css/2.05cbb0d5.chunk.css"
   },
   {
-    "revision": "abe8dd64726a5a419cc2",
-    "url": "/cocina-dashboard/static/css/main.0acd0656.chunk.css"
+    "revision": "ee6195d3608474880024",
+    "url": "/cocina-dashboard/static/css/main.ecc9f99b.chunk.css"
   },
   {
     "revision": "7224a2f31b70fdee27bf",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cocina-dashboard/static/js/3.4abda6f6.chunk.js"
   },
   {
-    "revision": "abe8dd64726a5a419cc2",
+    "revision": "ee6195d3608474880024",
     "url": "/cocina-dashboard/static/js/main.6bb0253f.chunk.js"
   },
   {
